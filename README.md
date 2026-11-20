@@ -1,18 +1,31 @@
 # Nexus Business Manager
 
-Mini ERP para gestão de clientes, produtos, serviços e vendas.
+Mini ERP desenvolvido para portfólio com foco em modelagem de banco de dados, relacionamentos entre tabelas e consultas SQL usando PostgreSQL.
 
-## Objetivo do projeto
+## Sobre o projeto
 
-Este projeto foi desenvolvido com foco em portfólio, para demonstrar conhecimentos em:
+O **Nexus Business Manager** é um projeto de banco de dados criado para simular a estrutura inicial de um sistema de gestão empresarial.
 
-- Modelagem de banco de dados
-- Relacionamentos entre tabelas
-- Chaves primárias e estrangeiras
-- Consultas SQL com JOIN
-- Agregações com GROUP BY
-- CRUD
-- Estrutura inicial de um sistema ERP
+O sistema foi pensado para controlar:
+
+- clientes
+- produtos
+- serviços
+- vendas
+- itens de venda
+
+Este projeto demonstra conhecimentos práticos em:
+
+- modelagem relacional
+- criação de tabelas
+- chaves primárias e estrangeiras
+- integridade referencial
+- consultas com `JOIN`
+- agregações com `GROUP BY`
+- relatórios SQL
+- organização de projeto para portfólio
+
+---
 
 ## Tecnologias utilizadas
 
@@ -20,6 +33,8 @@ Este projeto foi desenvolvido com foco em portfólio, para demonstrar conhecimen
 - SQL
 - Git
 - GitHub
+
+---
 
 ## Estrutura do projeto
 
@@ -29,4 +44,4 @@ nexus-business-manager/
 │   ├── schema.sql
 │   ├── seed.sql
 │   └── queries.sql
-└── README.md
+└── README.mds
